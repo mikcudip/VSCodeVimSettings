@@ -1,4 +1,20 @@
 [
+  // Navigate files
+  {
+    "key": "ctrl+tab",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.quickOpenPreviousRecentlyUsedEditor"
+      ]
+    },
+    "when": "!inEditorsPicker"
+  },
+  // Copy Code
+  {
+    "key": "ctrl+alt+c",
+    "command": "editor.action.clipboardCopyWithSyntaxHighlightingAction"
+  },
   // Explorer
   {
     "key": "e",
@@ -89,7 +105,7 @@
   {
     "key": "c",
     "command": "git.timeline.copyCommitId",
-   "when": "timelineFollowActiveEditor && !inputFocus"
+    "when": "timelineFollowActiveEditor && !inputFocus"
   },
   // Terminal
   {
@@ -140,5 +156,11 @@
     "key": "ctrl+shift+n",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus && terminalProcessSupported"
+  },
+  // Live Server
+  {
+    "key": "o",
+    "command": "extension.liveServer.goOnline",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   }
 ]
