@@ -119,7 +119,7 @@
         "fill": "none",
         "stroke": "#81a1c1",
         "font": "#eceff4",
-      },
+     },
       {
         "title": "Color 5",
         "fill": "none",
@@ -286,6 +286,7 @@
     {
       "before": [
         "<Leader>",
+        "s",
         "s"
       ],
       "commands": [
@@ -485,6 +486,26 @@
       ],
       "commands": [
         "merge-conflict.accept.selection"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "s",
+        "a"
+      ],
+      "commands": [
+        "editor.action.sortLinesAscending"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "s",
+        "d"
+      ],
+      "commands": [
+        "editor.action.sortLinesDescending"
       ]
     }
   ],
