@@ -162,5 +162,9 @@
     "key": "o",
     "command": "extension.liveServer.goOnline",
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "vscolors.color2Rgb"
   }
 ]
