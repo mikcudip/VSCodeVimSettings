@@ -165,6 +165,24 @@
   },
   {
     "key": "ctrl+u",
-    "command": "vscolors.color2Rgb"
+    "command": "vscolors.color2Rgb",
+    "when": "editorFocus"
+  },
+  // Code Runner
+  {
+    "key": "ctrl+enter",
+    "command": "code-runner.run",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.terminal.clear",
+        "code-runner.run"
+      ]
+    },
+    "when": "editorFocus"
   }
 ]

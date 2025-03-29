@@ -202,6 +202,7 @@
     "warning": "#f39c12",
     "info": "#1abc9c"
   },
+  "code-runner.runInTerminal": true,
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0}",
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
